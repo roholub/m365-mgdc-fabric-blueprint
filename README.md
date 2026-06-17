@@ -56,12 +56,6 @@ These are two different products that both expose Microsoft 365 data.
    │ Power BI / Data Agents /    │
    │ Fabric MCP / Notebooks      │
    └─────────────────────────────┘
-```
-
-**Why MGDC direct-to-Fabric** (no ADLS Gen2 in the middle):
-- One fewer storage hop = lower cost
-- Native Lakehouse landing = Delta tables out-of-the-box
-- Shortcuts give you cross-source joins without data movement
 
 ---
 
