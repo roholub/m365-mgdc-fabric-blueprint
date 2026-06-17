@@ -56,6 +56,7 @@ These are two different products that both expose Microsoft 365 data.
    │ Power BI / Data Agents /    │
    │ Fabric MCP / Notebooks      │
    └─────────────────────────────┘
+```
 
 ---
 
