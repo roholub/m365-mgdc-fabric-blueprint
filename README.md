@@ -64,13 +64,6 @@ These are two different products that both expose Microsoft 365 data.
 
 All MGDC datasets are described at the official catalog: [Datasets, regions, and sinks supported by MGDC](https://learn.microsoft.com/en-us/graph/data-connect-datasets).
 
-### Identity & Org Hierarchy
-| Dataset | Stability | Purpose |
-|---|---|---|
-| `BasicDataSet_v0.User_v1` | **GA** | Full user profile (displayName, jobTitle, department, mail, etc.) |
-| `BasicDataSet_v0.Manager_v0` | Preview | Direct manager assignment per user |
-| `BasicDataSet_v0.DirectReport_v0` | Preview | Inverse — who reports to whom |
-
 ### Activity Aggregates (pre-aggregated by Microsoft)
 | Dataset | Purpose |
 |---|---|
