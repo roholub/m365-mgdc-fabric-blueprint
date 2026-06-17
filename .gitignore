@@ -1,0 +1,70 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Spark / Fabric / data artifacts ----
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+_SUCCESS
+*.parquet
+*.delta/
+*.avro
+*.orc
+*.csv
+*.tsv
+*.jsonl
+
+# ---- Secrets / local config (never commit) ----
+.env
+.env.*
+*.pem
+*.key
+local.settings.json
+secrets.json
+credentials.json
+
+# ---- IDE / OS ----
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- VS Code ----
+# Keep shared workspace settings; ignore per-user state.
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# ---- Logs ----
+*.log
+logs/
